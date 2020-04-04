@@ -1,3 +1,70 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.125rem;
+  color: #2d2d2d;
+}
+
+header {
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  padding: 1em;
+}
+
+.mlc__logo {
+  width: 100%;
+  height: auto;
+}
+
+.nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /* flex-direction: column; */
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  align-items: stretch;
+}
+
+.nav__list li {
+  flex-basis: 100%;
+  text-align: center;
+  padding: 0 0 0.5rem 0;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #3b3b3b;
+}
+
+.weather {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0 0 0;
+}
+
+.weather__temp {
+  padding-top: 0.7rem;
+}
+
 #diamond-falls-lift-img {
   max-width: 23.875rem;
 }

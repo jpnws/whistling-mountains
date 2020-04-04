@@ -3,26 +3,33 @@
   <head>
     <meta charset="utf-8" />
     <title>Whistling Mountains</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" type="text/css" href="main.css" />
   </head>
   <body>
     <header>
-      <div id="top-logo">
-        <img src="images/MainLogo.svg" alt="main logo" id="main-logo-top" />
+      <div class="mlc">
+        <img src="images/MainLogo.svg" alt="main logo" class="mlc__logo" />
       </div>
-      <ul>
-        <li><a href="#">Explore the Resort</a></li>
-        <li><a href="#">The Mountain</a></li>
-        <li><a href="#">Tickets & Passes</a></li>
-        <li><a href="#">Lessons</a></li>
-      </ul>
-      <div id="weather">
-        <img src="images/Snowy.svg" alt="snowy" id="weather-icon" />
-        <span>-6°C</span>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a href="#" class="nav__link">Explore the Resort</a></li>
+          <li><a href="#" class="nav__link">The Mountain</a></li>
+          <li><a href="#" class="nav__link">Tickets & Passes</a></li>
+          <li><a href="#" class="nav__link">Lessons</a></li>
+        </ul>
+      </nav>
+      <div class="weather">
+        <img src="images/Snowy.svg" alt="snowy" class="weather__icon" />
+        <span class="weather__temp">-6°C</span>
       </div>
     </header>
     <div id="season-pass-ad">
-      <p>2020 Season Pass Available Now!</p>
+      <h1>2020 Season Pass Available Now!</h1>
       <p>
         A cheer for the snow—the drifting snow! Smoother and purer than beauty’s
         brow! The creature of thought scarce likes to tread. On the delicate
