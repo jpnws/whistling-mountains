@@ -4,10 +4,9 @@
     <meta charset="utf-8" />
     <title>Whistling Mountains</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" type="text/css" href="main.css" />
   </head>
   <body>
@@ -28,8 +27,8 @@
         <span class="weather__temp">-6°C</span>
       </div>
     </header>
-    <div id="season-pass-ad">
-      <h1>2020 Season Pass Available Now!</h1>
+    <div class="season-pass-ad">
+      <h1 class="season-pass-ad__title">2020 Season Pass Available Now!</h1>
       <p>
         A cheer for the snow—the drifting snow! Smoother and purer than beauty’s
         brow! The creature of thought scarce likes to tread. On the delicate
@@ -37,35 +36,40 @@
         the hills are with glittering diadems crown’d; ’tis the fairest scene we
         can have below. Sing, welcome, then, to the drifting snow!
       </p>
-      <button>Get Season Pass</button>
-      <button>See Deals</button>
+      <button class="btn btn-primary">Get Season Pass</button>
+      <button class="btn btn-outline">See Deals</button>
     </div>
-    <div id="passes-group">
-      <div>
-        <h1 id="passes-title">Passes</h1>
-        <p>2020 & 2021 season passes on sale!</p>
+    <div class="season-passes">
+      <div class="season-passes__top">
+        <h1 class="season-passes__title">Passes</h1>
+        <p class="season-passes__tagline">2020 & 2021 season passes on sale!</p>
       </div>
-      <div>
+      <div class="season-passes__bottom">
+        <div class="season-passes__bottom--icon">
+          <img
+            src="images/SeasonPassSelection.svg"
+            alt="season pass selction"
+            id="season-pass-selction"
+          />
+        </div>
+        <div class="season-passes__bottom--selections-button">
+          <select class="season-passes__options">
+            <option value="whistlepass">WHISTLE PASS</option>
+            <option value="vikingpass">VIKING PASS</option>
+            <option value="oceanicpass">OCEANIC PASS</option>
+          </select>
+          <button class="btn btn-primary">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="diamond-falls-section">
+      <div class="dfs-img-container">
         <img
-          src="images/SeasonPassSelection.svg"
-          alt="season pass selction"
-          id="season-pass-selction"
+          src="images/yann-allegre-I2DTjlgeBnY-unsplash.jpg"
+          alt="ski lift"
         />
-        <select id="season-passes">
-          <option value="whistlepass">WHISTLE PASS</option>
-          <option value="vikingpass">VIKING PASS</option>
-          <option value="oceanicpass">OCEANIC PASS</option>
-        </select>
-        <button>BUY NOW</button>
       </div>
-    </div>
-    <div id="diamond-falls-section">
-      <img
-        src="images/yann-allegre-I2DTjlgeBnY-unsplash.jpg"
-        alt="ski lift"
-        id="diamond-falls-lift-img"
-      />
-      <div>
+      <div class="diamond-falls-desc">
         <h1 id="diamond-falls-title">
           Diamond Falls
         </h1>
@@ -83,17 +87,7 @@
           desire for a nap is deep. I sludge to my room. I start to sleep, as I
           nap, the experience of hiking looms.
         </p>
-        <button>Diamond Lift Pass</button>
-      </div>
-      <div id="gallery-slider">
-        <img src="" alt="" id="" />
-        <img src="" alt="" id="" />
-        <img src="" alt="" id="" />
-        <div>
-          <img src="images/LeftArrow.svg" />
-          <span>3 / 5</span>
-          <img src="images/RightArrow.svg" />
-        </div>
+        <button class="btn btn-black">Diamond Lift Pass</button>
       </div>
       <div id="resort-hotel-announcement">
         <h1>
