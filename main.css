@@ -54,6 +54,7 @@ header::after {
   font-size: 0.875rem;
   letter-spacing: 1px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .nav__list li {
@@ -184,4 +185,77 @@ header::after {
 
 .diamond-falls-desc {
   padding: 0 1rem;
+}
+
+.resort-hotel-announcement {
+  padding: 0 1rem;
+}
+
+.questions-box {
+  padding: 0 1rem;
+}
+
+footer {
+  padding: 0.05rem 1rem 1rem 1rem;
+  background-color: #2d2d2d;
+  color: #ffffff;
+}
+
+.footer_nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.footer_nav__list li {
+  flex-basis: 100%;
+  /* text-align: center; */
+  padding: 0 0 0.5rem 0;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.policy-line {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.newsletter-box {
+  background-color: #3c3939;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.newsletter-box h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.social-media {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.social-media img {
+  width: 25px;
+}
+
+.main-logo-bottom {
+  width: 100%;
+  fill: #ffffff;
+  text-align: center;
+}
+
+.copyright-notice {
+  font-size: 0.9rem;
+  text-align: center;
 }
