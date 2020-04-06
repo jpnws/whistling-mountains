@@ -31,17 +31,12 @@ header {
   padding: 1em 1em 0.5em 1em;
 }
 
-header::after {
+.top-container {
   content: "";
   background-image: url(images/main-bg.svg);
   background-size: cover;
-  opacity: 0.3;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
+  background-position: left bottom;
+  min-height: 1100px;
 }
 
 .mlc__logo {
@@ -72,6 +67,21 @@ header::after {
   color: #3b3b3b;
 }
 
+@media (min-width: 465px) {
+  header {
+    display: grid;
+    grid-template-columns: 250px minmax(0, 1fr) minmax(200px, 1fr) minmax(
+        200px,
+        1fr
+      );
+  }
+
+  .nav__list {
+    flex-wrap: nowrap;
+    text-align: left;
+  }
+}
+
 .weather {
   display: flex;
   justify-content: center;
@@ -91,6 +101,18 @@ header::after {
   font-weight: 900;
   font-size: 2rem;
   margin: 0;
+}
+
+@media (min-width: 465px) {
+  .season-pass-ad {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(20rem, 50ch) minmax(1em, 10fr);
+    margin-top: 9rem;
+  }
+
+  .header {
+    background-position: left bottom;
+  }
 }
 
 .btn {
@@ -187,6 +209,12 @@ header::after {
   height: auto;
 }
 
+@media (min-width: 465px) {
+  .dfs-img-container img {
+    max-width: 382px;
+  }
+}
+
 .diamond-falls-desc {
   padding: 0 1rem;
 }
@@ -203,6 +231,11 @@ footer {
   padding: 0.05rem 1rem 1rem 1rem;
   background-color: #2d2d2d;
   color: #ffffff;
+}
+
+.footer--top {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .footer_nav__list {

@@ -10,34 +10,42 @@
     <link rel="stylesheet" type="text/css" href="main.css" />
   </head>
   <body>
-    <header>
-      <div class="mlc">
-        <img src="images/MainLogo.svg" alt="main logo" class="mlc__logo" />
+    <div class="top-container">
+      <header>
+        <div class="mlc">
+          <img src="images/MainLogo.svg" alt="main logo" class="mlc__logo" />
+        </div>
+        <div></div>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li><a href="#" class="nav__link">Explore the Resort</a></li>
+            <li><a href="#" class="nav__link">The Mountain</a></li>
+            <li><a href="#" class="nav__link">Tickets & Passes</a></li>
+            <li><a href="#" class="nav__link">Lessons</a></li>
+          </ul>
+        </nav>
+        <div class="weather">
+          <img src="images/Snowy.svg" alt="snowy" class="weather__icon" />
+          <span class="weather__temp">-6°C</span>
+        </div>
+      </header>
+      <div class="season-pass-ad">
+        <div></div>
+        <div>
+          <h1 class="season-pass-ad__title">2020 Season Pass Available Now!</h1>
+          <p>
+            A cheer for the snow—the drifting snow! Smoother and purer than
+            beauty’s brow! The creature of thought scarce likes to tread. On the
+            delicate carpet so richly spread. With feathery wreaths the forest
+            is bound, and the hills are with glittering diadems crown’d; ’tis
+            the fairest scene we can have below. Sing, welcome, then, to the
+            drifting snow!
+          </p>
+          <button class="btn btn-primary">Get Season Pass</button>
+          <button class="btn btn-outline">See Deals</button>
+        </div>
+        <div></div>
       </div>
-      <nav class="nav">
-        <ul class="nav__list">
-          <li><a href="#" class="nav__link">Explore the Resort</a></li>
-          <li><a href="#" class="nav__link">The Mountain</a></li>
-          <li><a href="#" class="nav__link">Tickets & Passes</a></li>
-          <li><a href="#" class="nav__link">Lessons</a></li>
-        </ul>
-      </nav>
-      <div class="weather">
-        <img src="images/Snowy.svg" alt="snowy" class="weather__icon" />
-        <span class="weather__temp">-6°C</span>
-      </div>
-    </header>
-    <div class="season-pass-ad">
-      <h1 class="season-pass-ad__title">2020 Season Pass Available Now!</h1>
-      <p>
-        A cheer for the snow—the drifting snow! Smoother and purer than beauty’s
-        brow! The creature of thought scarce likes to tread. On the delicate
-        carpet so richly spread. With feathery wreaths the forest is bound, and
-        the hills are with glittering diadems crown’d; ’tis the fairest scene we
-        can have below. Sing, welcome, then, to the drifting snow!
-      </p>
-      <button class="btn btn-primary">Get Season Pass</button>
-      <button class="btn btn-outline">See Deals</button>
     </div>
     <div class="season-passes">
       <div class="season-passes__top">
@@ -111,72 +119,74 @@
         </p>
       </div>
       <footer>
-        <section class="footer--section">
-          <h1>Our Resorts</h1>
-          <ul class="footer_nav__list">
-            <li><a href="#" class="footer__link">South Africa</a></li>
-            <li><a href="#" class="footer__link">Antarctica</a></li>
-            <li><a href="#" class="footer__link">Mid-Atlantic</a></li>
-            <li><a href="#" class="footer__link">Southwest</a></li>
-            <li><a href="#" class="footer__link">Northeast</a></li>
-            <li><a href="#" class="footer__link">Polynesia</a></li>
-          </ul>
-        </section>
-        <section class="footer--section">
-          <h1>Our Sites</h1>
-          <ul class="footer_nav__list">
-            <li>
-              <a href="#" class="footer__link">Viking Passage</a>
-            </li>
-            <li><a href="#" class="footer__link">Ragnorak Ice</a></li>
-            <li><a href="#" class="footer__link">Snowy Road</a></li>
-            <li>
-              <a href="#" class="footer__link">Sound of Avalanche</a>
-            </li>
-          </ul>
-        </section>
-        <section class="footer--section">
-          <h1>Corporate</h1>
-          <ul class="footer_nav__list">
-            <li><a href="#" class="footer__link">Careers</a></li>
-            <li><a href="#" class="footer__link">Press Room</a></li>
-            <li>
-              <a href="#" class="footer__link">Canadian Forest Services</a>
-            </li>
-            <li>
-              <a href="#" class="footer__link">Whisling Policy</a>
-            </li>
-          </ul>
-        </section>
-        <section class="footer--section">
-          <h1>Our Partners</h1>
-          <ul class="footer_nav__list">
-            <li>
-              <a href="#" class="footer__link">Snow White Landlord</a>
-            </li>
-            <li>
-              <a href="#" class="footer__link">GSC Vitamins & Supplements</a>
-            </li>
-            <li>
-              <a href="#" class="footer__link">Regular Company</a>
-            </li>
-            <li>
-              <a href="#" class="footer__link">Some Large Organization</a>
-            </li>
-          </ul>
-        </section>
-        <section class="newsletter-box">
-          <h1>Whistling Mountain Newsletter</h1>
-          <p>Get special offers, resort updates and snow alerts.</p>
-          <ul class="footer_nav__list">
-            <li>
-              <a href="#" class="footer__link">Send email newsletters.</a>
-            </li>
-            <li>
-              <a href="#" class="footer__link">Send text message alerts.</a>
-            </li>
-          </ul>
-        </section>
+        <div class="footer--top">
+          <section class="footer--section">
+            <h1>Our Resorts</h1>
+            <ul class="footer_nav__list">
+              <li><a href="#" class="footer__link">South Africa</a></li>
+              <li><a href="#" class="footer__link">Antarctica</a></li>
+              <li><a href="#" class="footer__link">Mid-Atlantic</a></li>
+              <li><a href="#" class="footer__link">Southwest</a></li>
+              <li><a href="#" class="footer__link">Northeast</a></li>
+              <li><a href="#" class="footer__link">Polynesia</a></li>
+            </ul>
+          </section>
+          <section class="footer--section">
+            <h1>Our Sites</h1>
+            <ul class="footer_nav__list">
+              <li>
+                <a href="#" class="footer__link">Viking Passage</a>
+              </li>
+              <li><a href="#" class="footer__link">Ragnorak Ice</a></li>
+              <li><a href="#" class="footer__link">Snowy Road</a></li>
+              <li>
+                <a href="#" class="footer__link">Sound of Avalanche</a>
+              </li>
+            </ul>
+          </section>
+          <section class="footer--section">
+            <h1>Corporate</h1>
+            <ul class="footer_nav__list">
+              <li><a href="#" class="footer__link">Careers</a></li>
+              <li><a href="#" class="footer__link">Press Room</a></li>
+              <li>
+                <a href="#" class="footer__link">Canadian Forest Services</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Whisling Policy</a>
+              </li>
+            </ul>
+          </section>
+          <section class="footer--section">
+            <h1>Our Partners</h1>
+            <ul class="footer_nav__list">
+              <li>
+                <a href="#" class="footer__link">Snow White Landlord</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">GSC Vitamins & Supplements</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Regular Company</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Some Large Organization</a>
+              </li>
+            </ul>
+          </section>
+          <section class="newsletter-box">
+            <h1>Whistling Mountain Newsletter</h1>
+            <p>Get special offers, resort updates and snow alerts.</p>
+            <ul class="footer_nav__list">
+              <li>
+                <a href="#" class="footer__link">Send email newsletters.</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Send text message alerts.</a>
+              </li>
+            </ul>
+          </section>
+        </div>
         <section class="policy-line">
           <p>Privacy Policy</p>
           <p>Cancellation Policy</p>
