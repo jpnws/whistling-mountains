@@ -70,10 +70,21 @@ header {
 @media (min-width: 465px) {
   header {
     display: grid;
-    grid-template-columns: 250px minmax(0, 1fr) minmax(200px, 1fr) minmax(
-        200px,
-        1fr
-      );
+    grid-template-columns:
+      minmax(0, 0.28fr)
+      300px
+      minmax(0, 1fr)
+      minmax(200px, 2fr)
+      minmax(200px, 0.5fr);
+  }
+
+  .mlc {
+    align-self: center;
+    padding-top: 1rem;
+  }
+
+  .nav {
+    align-self: center;
   }
 
   .nav__list {
@@ -198,6 +209,13 @@ header {
 
 .season-passes__bottom--selections-button button {
   margin-top: 0.75rem;
+}
+
+@media (min-width: 465px) {
+  .season-passes {
+    display: flex;
+    max-width: 450px;
+  }
 }
 
 .dfs-img-container {
