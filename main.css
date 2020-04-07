@@ -39,35 +39,50 @@ header {
   min-height: 1100px;
 }
 
-.mlc__logo {
-  width: 100%;
+.mlc {
+  text-align: center;
+}
+
+.mlc-logo {
+  width: 80%;
   height: auto;
 }
 
-.nav__list {
+.nav-list {
   display: flex;
   flex-wrap: wrap;
-  margin: 0;
+  margin: 1rem 0 0 0;
   padding: 0;
   list-style: none;
-  font-size: 0.875rem;
+  font-size: 1.5rem;
   letter-spacing: 1px;
   text-transform: uppercase;
   text-align: center;
 }
 
-.nav__list li {
+.nav-list li {
   flex-basis: 100%;
   /* text-align: center; */
-  padding: 0 0 0.5rem 0;
+  padding: 0 0 1rem 0;
 }
 
-.nav__link {
+.nav-link {
   text-decoration: none;
   color: #3b3b3b;
 }
 
-@media (min-width: 465px) {
+.weather {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0 0 0;
+  font-size: 2.5rem;
+}
+
+.weather-icon {
+  width: 5rem;
+}
+
+@media (min-width: 981px) {
   header {
     display: grid;
     grid-template-columns:
@@ -83,7 +98,7 @@ header {
     padding-top: 1rem;
   }
 
-  .mlc__logo {
+  .mlc-logo {
     width: 344px;
   }
 
@@ -91,26 +106,28 @@ header {
     align-self: center;
   }
 
-  .nav__list {
+  .nav-list {
     flex-wrap: nowrap;
+    font-size: 0.875rem;
   }
 
-  .nav__list li {
+  .nav-list li {
+  }
+
+  .weather {
+    font-size: 1.5rem;
+  }
+
+  .weather-icon {
+    width: 2.5rem;
   }
 }
 
-.weather {
-  display: flex;
-  justify-content: center;
-
-  margin: 1rem 0 0 0;
-}
-
-.weather__temp {
+.weather-temp {
   padding-top: 0.7rem;
 }
 
-@media (min-width: 465px) {
+@media (min-width: 981px) {
   .weather {
     margin-top: 0;
   }
@@ -126,7 +143,7 @@ header {
   margin: 0;
 }
 
-@media (min-width: 465px) {
+@media (min-width: 981px) {
   .season-pass-ad {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(20rem, 50ch) minmax(1em, 10fr);
@@ -236,7 +253,7 @@ header {
   margin-top: 0.75rem;
 }
 
-@media (min-width: 465px) {
+@media (min-width: 981px) {
   .season-passes {
     display: flex;
     max-width: 450px;
@@ -265,7 +282,7 @@ header {
   height: auto;
 }
 
-@media (min-width: 465px) {
+@media (min-width: 981px) {
   .diamond-falls-section {
     display: flex;
     margin-left: 7.5rem;
@@ -300,7 +317,7 @@ header {
   color: #ffffff;
 }
 
-@media (min-width: 465px) {
+@media (min-width: 981px) {
   .resort-hotel-announcement {
     margin-top: 5rem;
     padding-top: 10rem;
@@ -322,7 +339,7 @@ header {
   padding: 0 1rem;
 }
 
-@media (min-width: 465px) {
+@media (min-width: 981px) {
   .questions-box {
     margin-top: 5rem;
     margin-left: 7.5rem;
@@ -354,7 +371,7 @@ footer {
   grid-template-columns: minmax(0, 0) repeat(auto-fit, minmax(auto, 1fr));
 }
 
-@media (min-width: 465px) {
+@media (min-width: 981px) {
   .footer--top {
     grid-template-columns:
       minmax(0, 7.5rem)
@@ -362,7 +379,7 @@ footer {
   }
 }
 
-.footer_nav__list {
+.footer_nav-list {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
@@ -373,7 +390,7 @@ footer {
   text-transform: uppercase;
 }
 
-.footer_nav__list li {
+.footer_nav-list li {
   flex-basis: 100%;
   padding: 0 0 0.5rem 0;
 }
@@ -392,7 +409,7 @@ footer {
   text-align: center;
 }
 
-@media (min-width: 465px) {
+@media (min-width: 981px) {
   .policy-line {
     display: flex;
     margin-left: 7.5rem;
@@ -436,7 +453,7 @@ footer {
   text-align: center;
 }
 
-@media (min-width: 465px) {
+@media (min-width: 981px) {
   .logo-copyright {
     display: flex;
     margin-left: 7.5rem;
