@@ -351,9 +351,15 @@ footer {
 
 .footer--top {
   display: grid;
-  grid-template-columns:
-    minmax(0, 7.5rem)
-    repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: minmax(0, 0) repeat(auto-fit, minmax(auto, 1fr));
+}
+
+@media (min-width: 465px) {
+  .footer--top {
+    grid-template-columns:
+      minmax(0, 7.5rem)
+      repeat(auto-fit, minmax(200px, 1fr));
+  }
 }
 
 .footer_nav__list {
@@ -369,7 +375,6 @@ footer {
 
 .footer_nav__list li {
   flex-basis: 100%;
-  /* text-align: center; */
   padding: 0 0 0.5rem 0;
 }
 
@@ -378,9 +383,25 @@ footer {
   color: #ffffff;
 }
 
+.footer--section h1 {
+  font-size: ;
+}
+
 .policy-line {
   font-size: 0.9rem;
   text-align: center;
+}
+
+@media (min-width: 465px) {
+  .policy-line {
+    display: flex;
+    margin-left: 7.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .policy-line p {
+    margin-right: 3rem;
+  }
 }
 
 .newsletter-box {
@@ -413,4 +434,17 @@ footer {
 .copyright-notice {
   font-size: 0.9rem;
   text-align: center;
+}
+
+@media (min-width: 465px) {
+  .logo-copyright {
+    display: flex;
+    margin-left: 7.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .main-logo-bottom {
+    width: 344px;
+    margin-right: 1.5rem;
+  }
 }
