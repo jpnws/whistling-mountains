@@ -82,7 +82,7 @@ header {
   width: 5rem;
 }
 
-@media (min-width: 981px) {
+@media (min-width: 456px) {
   header {
     display: grid;
     grid-template-columns:
@@ -127,7 +127,7 @@ header {
   padding-top: 0.7rem;
 }
 
-@media (min-width: 981px) {
+@media (min-width: 456px) {
   .weather {
     margin-top: 0;
   }
@@ -143,7 +143,7 @@ header {
   margin: 0;
 }
 
-@media (min-width: 981px) {
+@media (min-width: 456px) {
   .season-pass-ad {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(20rem, 50ch) minmax(1em, 10fr);
@@ -253,7 +253,7 @@ header {
   margin-top: 0.75rem;
 }
 
-@media (min-width: 981px) {
+@media (min-width: 456px) {
   .season-passes {
     display: flex;
     max-width: 450px;
@@ -282,7 +282,7 @@ header {
   height: auto;
 }
 
-@media (min-width: 981px) {
+@media (min-width: 456px) {
   .diamond-falls-section {
     display: flex;
     margin-left: 7.5rem;
@@ -317,7 +317,7 @@ header {
   color: #ffffff;
 }
 
-@media (min-width: 981px) {
+@media (min-width: 456px) {
   .resort-hotel-announcement {
     margin-top: 5rem;
     padding-top: 10rem;
@@ -339,7 +339,7 @@ header {
   padding: 0 1rem;
 }
 
-@media (min-width: 981px) {
+@media (min-width: 456px) {
   .questions-box {
     margin-top: 5rem;
     margin-left: 7.5rem;
@@ -371,7 +371,7 @@ footer {
   grid-template-columns: minmax(0, 0) repeat(auto-fit, minmax(auto, 1fr));
 }
 
-@media (min-width: 981px) {
+@media (min-width: 456px) {
   .footer--top {
     grid-template-columns:
       minmax(0, 7.5rem)
@@ -409,7 +409,7 @@ footer {
   text-align: center;
 }
 
-@media (min-width: 981px) {
+@media (min-width: 456px) {
   .policy-line {
     display: flex;
     margin-left: 7.5rem;
@@ -453,7 +453,7 @@ footer {
   text-align: center;
 }
 
-@media (min-width: 981px) {
+@media (min-width: 456px) {
   .logo-copyright {
     display: flex;
     margin-left: 7.5rem;
