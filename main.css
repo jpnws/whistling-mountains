@@ -18,25 +18,25 @@ html {
 
 body {
   margin: 0;
-  font-family: "Work Sans", sans-serif;
-  font-size: 1.125rem;
   color: #2d2d2d;
+  font-size: 1.125rem;
+  font-family: "Work Sans", sans-serif;
 }
 
 header {
   position: relative;
+  padding: 1em 1em 0.5em 1em;
   overflow: hidden;
   font-weight: bold;
   font-family: "Roboto", sans-serif;
-  padding: 1em 1em 0.5em 1em;
 }
 
 .top-container {
-  content: "";
   background-image: url(images/main-bg.svg);
-  background-size: cover;
   background-position: left bottom;
+  background-size: cover;
   min-height: 1100px;
+  content: "";
 }
 
 .mlc {
@@ -53,11 +53,11 @@ header {
   flex-wrap: wrap;
   margin: 1rem 0 0 0;
   padding: 0;
-  list-style: none;
   font-size: 1rem;
   letter-spacing: 1px;
-  text-transform: uppercase;
+  list-style: none;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .nav-list li {
@@ -67,8 +67,8 @@ header {
 }
 
 .nav-link {
-  text-decoration: none;
   color: #3b3b3b;
+  text-decoration: none;
 }
 
 .weather {
@@ -111,9 +111,6 @@ header {
     font-size: 0.875rem;
   }
 
-  .nav-list li {
-  }
-
   .weather {
     font-size: 1.5rem;
   }
@@ -138,9 +135,9 @@ header {
 }
 
 .season-pass-ad__title {
+  margin: 0;
   font-weight: 900;
   font-size: 2rem;
-  margin: 0;
 }
 
 @media (min-width: 456px) {
@@ -155,8 +152,8 @@ header {
   }
 
   .season-pass-ad__title {
-    font-size: 3rem;
     margin: 0 0 2rem 0;
+    font-size: 3rem;
   }
 
   .season-pass-ad__desc {
@@ -169,21 +166,21 @@ header {
 }
 
 .btn {
-  cursor: pointer;
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: bold;
-  font-family: inherit;
-  text-decoration: none;
   display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.8rem;
+  font-family: inherit;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .btn-primary {
-  padding: 1em 1.25em;
-  background-color: #cedc72;
-  color: #000;
   border: 0px;
+  background-color: #cedc72;
+  padding: 1em 1.25em;
+  color: #000;
 }
 
 .btn-primary:hover {
@@ -192,30 +189,30 @@ header {
 }
 
 .btn-outline {
-  padding: 0.77em 1.25em;
-  background-color: transparent;
   outline: 3px solid #cedc72;
   border: 0;
+  background-color: transparent;
+  padding: 0.77em 1.25em;
 }
 
 .btn-outline:hover {
-  background-color: #2d2d2d;
   outline: 3px solid #2d2d2d;
+  background-color: #2d2d2d;
   color: #ffffff;
 }
 
 .btn-black {
-  padding: 0.77em 1.25em;
-  background-color: #2d2d2d;
   border: 0;
+  background-color: #2d2d2d;
+  padding: 0.77em 1.25em;
   color: #ffffff;
 }
 
 .btn-black:hover {
-  background-color: transparent;
   outline: 3px solid #2d2d2d;
-  color: #2d2d2d;
   border: 0;
+  background-color: transparent;
+  color: #2d2d2d;
 }
 
 .season-passes {
@@ -227,16 +224,16 @@ header {
 }
 
 .season-passes__options {
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: bold;
-  font-family: inherit;
-  text-decoration: none;
-  background-color: #2d2d2d;
-  color: #ffffff;
   border: 0;
+  background-color: #2d2d2d;
   padding: 0.724rem 0.7rem;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 0.8rem;
+  font-family: inherit;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .season-passes__bottom {
@@ -256,8 +253,8 @@ header {
 @media (min-width: 456px) {
   .season-passes {
     display: flex;
-    max-width: 450px;
     margin-left: 7.5rem;
+    max-width: 450px;
   }
 
   .season-passes__tagline {
@@ -285,8 +282,8 @@ header {
 @media (min-width: 456px) {
   .diamond-falls-section {
     display: flex;
-    margin-left: 7.5rem;
     margin-top: 5rem;
+    margin-left: 7.5rem;
   }
 
   .dfs-img-container img {
@@ -308,12 +305,12 @@ header {
 
 .resort-hotel-announcement {
   margin-top: 2rem;
-  padding: 4rem 0 1rem 1rem;
-  height: 476px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(images/toa-heftiba-2GMervuSEs4-unsplash.jpg);
-  background-size: cover;
   background-position: left 50%;
+  background-size: cover;
+  padding: 4rem 0 1rem 1rem;
+  height: 476px;
   color: #ffffff;
 }
 
@@ -325,13 +322,13 @@ header {
   }
 
   .resort-hotel-announcement h1 {
-    font-size: 2.375rem;
     margin: 0;
+    font-size: 2.375rem;
   }
 
   .resort-hotel-announcement p {
-    font-size: 0.82875rem;
     margin-bottom: 1.5rem;
+    font-size: 0.82875rem;
   }
 }
 
@@ -342,8 +339,8 @@ header {
 @media (min-width: 456px) {
   .questions-box {
     margin-top: 5rem;
-    margin-left: 7.5rem;
     margin-bottom: 6rem;
+    margin-left: 7.5rem;
   }
 
   .questions-box h1 {
@@ -361,8 +358,8 @@ header {
 }
 
 footer {
-  padding: 0.05rem 1rem 1rem 1rem;
   background-color: #2d2d2d;
+  padding: 0.05rem 1rem 1rem 1rem;
   color: #ffffff;
 }
 
@@ -384,9 +381,9 @@ footer {
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
-  list-style: none;
   font-size: 0.875rem;
   letter-spacing: 1px;
+  list-style: none;
   text-transform: uppercase;
 }
 
@@ -396,12 +393,8 @@ footer {
 }
 
 .footer__link {
-  text-decoration: none;
   color: #ffffff;
-}
-
-.footer--section h1 {
-  font-size: ;
+  text-decoration: none;
 }
 
 .policy-line {
@@ -412,8 +405,8 @@ footer {
 @media (min-width: 456px) {
   .policy-line {
     display: flex;
-    margin-left: 7.5rem;
     margin-bottom: 1.5rem;
+    margin-left: 7.5rem;
   }
 
   .policy-line p {
@@ -422,9 +415,9 @@ footer {
 }
 
 .newsletter-box {
+  margin-top: 1rem;
   background-color: #3c3939;
   padding: 1rem;
-  margin-top: 1rem;
 }
 
 .newsletter-box h1 {
@@ -433,9 +426,9 @@ footer {
 }
 
 .social-media {
-  text-align: center;
   padding-top: 2rem;
   padding-bottom: 1rem;
+  text-align: center;
 }
 
 .social-media img {
@@ -443,8 +436,8 @@ footer {
 }
 
 .main-logo-bottom {
-  width: 100%;
   fill: #ffffff;
+  width: 100%;
   text-align: center;
 }
 
@@ -456,12 +449,12 @@ footer {
 @media (min-width: 456px) {
   .logo-copyright {
     display: flex;
-    margin-left: 7.5rem;
     margin-bottom: 1.5rem;
+    margin-left: 7.5rem;
   }
 
   .main-logo-bottom {
-    width: 344px;
     margin-right: 1.5rem;
+    width: 344px;
   }
 }
